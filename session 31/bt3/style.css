@@ -1,0 +1,38 @@
+.body {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(240, 235, 236)
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.box1 {
+    background-color: green;
+
+}
+
+.box2 {
+    background-color: red;
+
+}
+
+.box3 {
+    background-color: violet;
+
+}
