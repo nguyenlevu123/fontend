@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #f0f0f0;
+        }
+        button:hover {
+            background-color: #e0e0e0;
+        }
+        #counterDisplay {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <input type="text" id="subjectInput" placeholder="Nhập tên môn học">
+            <button id="addSubjectBtn">Thêm môn học</button>
+        </div>
+        <ul id="subjectList">
+            <li>1. Toán</li>
+            <li>2. Lý</li>
+            <li>3. Hóa</li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
